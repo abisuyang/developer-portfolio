@@ -37,3 +37,27 @@ section {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
+
+.dream {
+    width: 80%;
+}
+
+.dream {
+    width: 50%;
+}
+
+section {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.button-link {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
