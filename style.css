@@ -11,53 +11,75 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    padding: 5%;
+
 }
 
 .width {
     width: 50%;
-    padding-left: 5%;
+
 }
 
 .width img {
+    width: 100%;
+}
+
+.half-width img {
     width: 80%;
 }
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    color: white;
+    background-image: radial-gradient(orange, tomato);
     font-weight: 700;
+    color: white;
     padding: 10px 40px;
     border-radius: 5px;
 }
 
-.top-banner {
+.welcome {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
 
-.dream {
-    width: 80%;
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 
-.dream {
-    width: 50%;
+.box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
 }
 
-section {
-    display: flex;
+#back-image {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-
 }
 
-.button-link {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    color: white;
-    font-weight: 700;
-    padding: 10px 40px;
-    border-radius: 5px;
+#box-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#box-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: orange;
 }
